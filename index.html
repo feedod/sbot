@@ -41,7 +41,9 @@
       Telegram.WebApp.ready();
       // Show button
       Telegram.WebApp.MainButton.setParams({
-         text: 'Main Button'
+         text: 'Main Button',
+         color: '#ffffff',
+         textColor: '#000000'
       });
       Telegram.WebApp.MainButton.onClick(function() {
          Telegram.WebApp.showAlert('Main Button was clicked')
