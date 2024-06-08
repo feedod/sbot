@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="ru" style="--tg-theme-header-bg-color: #ffffff;">
+<html lang="ru">
 
 <head>
    <meta charset="utf-8">
@@ -41,12 +41,15 @@
         Telegram.WebApp.MainButton.text = "About";
         Telegram.WebApp.MainButton.color = "#ffffff";
         Telegram.WebApp.MainButton.textColor = "#000000";
+      
         Telegram.WebApp.MainButton.onClick(function() {
-         Telegram.WebApp.showAlert('Main Button was clicked')
-      });
-      Telegram.WebApp.MainButton.show();
+             Telegram.WebApp.showAlert('Main Button was clicked')
+        });
+      
+        Telegram.WebApp.MainButton.show();
    
-      //Telegram.WebApp.setHeaderColor('#ffffff');
+      Telegram.WebApp.setHeaderColor('#ffffff');
+      Telegram.WebApp.setSecondaryColor('#ffffff');
       
       Telegram.WebApp.expand();
    </script>
