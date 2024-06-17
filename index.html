@@ -17,11 +17,9 @@
 </head>
 
 <body>
-  <iframe id="app" src="https://tanzil.net/?embed=true#trans"></iframe>
+  <iframe id="app" src="https://tanzil.net/?embed=true#trans" onload="this.style.visibility = 'visible';"></iframe>
   <script src="https://telegram.org/js/telegram-web-app.js?10"></script>
   <script>
-    document.getElementById("app").style.visibility = 'visible';
-    
     // Init TWA
     Telegram.WebApp.ready();
     Telegram.WebApp.setHeaderColor('#ffffff');
